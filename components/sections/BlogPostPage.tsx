@@ -35,7 +35,7 @@ export function BlogPostPage({ post }: PostProps) {
   return (
     <>
       <div className="fixed top-0 left-0 w-full h-1 z-50">
-        <div className="h-full bg-accent" style={{ width: \`\${progress}%\` }} />
+        <div className="h-full bg-accent" style={{ width: `${progress}%` }} />
       </div>
 
       <article className="pt-28 pb-24">

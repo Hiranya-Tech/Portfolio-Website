@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import Link from 'next/link'
 import { Calendar, Clock, ArrowRight } from 'lucide-react'
-import { BLOG_POSTS } from '@/app/blog/[slug]/page'
+import { BLOG_POSTS } from '@/lib/data'
 import { formatDate } from '@/lib/utils'
 
 const CATS = ['All', 'Cybersecurity', 'AI Security']
